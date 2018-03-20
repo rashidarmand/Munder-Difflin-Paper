@@ -1,0 +1,8 @@
+@font-face {
+    font-family: timepotFont;
+    src: url(ProximaNovaSoftW03-Regular.woff)
+}
+
+body {
+    font-family: timepotFont;
+}
