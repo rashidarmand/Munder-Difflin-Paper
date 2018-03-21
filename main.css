@@ -5,4 +5,70 @@
 
 body {
     font-family: timepotFont;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #022B3A;
+    border: 1px solid #BFDBF7;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+}
+
+.navBarItems {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 80px;
+    border: 80px;
+}
+
+.navBarItems:hover {
+    cursor: pointer;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #022B3A;
+    border: 1px solid #BFDBF7;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+section {
+    margin: 50px 0;
+    border: 1px solid #BFDBF7;
+    height: 600px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+section:nth-child(1) {
+    background-color: orange;
+}
+
+section:nth-child(2) {
+    background-color: skyblue;
+}
+
+section:nth-child(3) {
+    background-color: seagreen;
+}
+
+section:nth-child(4) {
+    background-color: firebrick;
 }
