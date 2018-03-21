@@ -5,7 +5,7 @@
 
 body {
     font-family: timepotFont;
-    background-color: #FFFFFF;
+    background-color: #BFDBF7;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ a {
 section {
     margin: 50px 0;
     border: 1px solid #BFDBF7;
-    height: 600px;
+    height: 700px;
 }
 
 img{
@@ -58,7 +58,19 @@ img{
 }
 
 section:nth-child(1) {
-    background-color: orange;
+    background-color:white;
+    background-image: url(imageedit_2_3397526219.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    font-size: 35px;
+    color: #022B3A;
+}
+
+p {
+    margin: 90px 180px;
 }
 
 section:nth-child(2) {
