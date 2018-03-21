@@ -57,24 +57,66 @@ img{
     width: 100%;
 }
 
-section:nth-child(1) {
-    background-color:white;
+/* First Section Styling */
+#aboutUs {
+    background-color:#FFFFFF;
     background-image: url(imageedit_2_3397526219.png);
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
-    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
     text-align:center;
     font-size: 35px;
     color: #022B3A;
 }
 
-p {
-    margin: 90px 180px;
+#paragraphInAboutUs {
+    margin: 10px 180px;
 }
 
-section:nth-child(2) {
-    background-color: skyblue;
+/* Second Section Styling */
+#services {
+    background-color: #ffff;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-content:center;
+}
+
+#paragraphInServices {
+    margin: 7px 180px;
+}
+
+#servicesList {
+    list-style-type: none;
+    padding: 0;
+    color: #022B3A;
+    border: 0;
+}
+
+.servicesItems {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px;
+    border: 0px;
+    margin: 0 100px;
+    text-shadow: .5px 2px #BFDBF7;
+    border: 5px solid #1F7A8C;
+    box-shadow: 8px 10px #BFDBF7;
+    border-radius: 25px;
+}
+
+#topHalfOfServices {
+    height:351px;
+    font-size: 35px;
+    text-align:center;
+}
+
+#bottomHalfOfServices {
+    height:350px;
+    text-align:center;
 }
 
 section:nth-child(3) {
