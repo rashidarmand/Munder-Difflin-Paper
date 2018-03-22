@@ -1,3 +1,7 @@
+// started scroll to top feature
+let topOfPageList = document.querySelector("#logo");
+let topOfPage = topOfPageList[0];
+
 let navNodeList = document.getElementsByClassName('navBarItems');
 let aboutUs = navNodeList[0];
 let services = navNodeList[1];

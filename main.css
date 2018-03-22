@@ -10,6 +10,24 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+section {
+    margin: 50px 0;
+    border: 1px solid #1F7A8C;
+    height: 700px;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* Nav Bar Styling */
 #logo {
     height: 200px;
     width: 200px;
@@ -21,7 +39,7 @@ ul {
     padding: 0;
     background-color: #FFFFFF;
     color: #022B3A;
-    border: 1px solid #BFDBF7;
+    border: 1px solid #1F7A8C;
     display: flex;
     justify-content:space-between;
     align-content:center;
@@ -40,17 +58,6 @@ ul {
     color: #FFFFFF;
     background-color: #022B3A;
     border: 1px solid #BFDBF7;
-}
-
-a {
-    text-decoration:none;
-    color:inherit;
-}
-
-section {
-    margin: 50px 0;
-    border: 1px solid #BFDBF7;
-    height: 700px;
 }
 
 
@@ -73,6 +80,11 @@ section {
     color: #022B3A;
 }
 
+#aboutUsHeading {
+    text-shadow: 2.5px 2px #BFDBF7;
+    text-decoration: underline solid #1F7A8C;
+}
+
 #paragraphInAboutUs {
     margin: 10px 180px;
 }
@@ -85,8 +97,13 @@ section {
     background-color: #ffff;
     display: flex;
     flex-wrap:wrap;
-    justify-content:space-around;
-    align-content:center;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+}
+
+#servicesHeading {
+    text-shadow: 2.5px 2px #BFDBF7;
+    text-decoration: underline solid #1F7A8C;
 }
 
 #paragraphInServices {
@@ -136,6 +153,9 @@ section {
 #productHeading {
     font-size: 53px;
     text-align: center;
+    margin-bottom: 0;
+    text-shadow: 2.5px 2px #BFDBF7;
+    text-decoration: underline solid #1F7A8C;
 }
 
 .paragraphsInProductSection {
@@ -149,8 +169,8 @@ section {
     height:550px;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
-    align-content:flex-start;
+    justify-content:space-evenly;
+    align-content:space-evenly;
     text-align:center;
 }
 
@@ -175,13 +195,13 @@ section {
     height: 550px;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
-    align-content:flex-start;
+    justify-content:space-evenly;
+    align-content:space-evenly;
     text-align:center;
 }
 
 #rightProductContainer p {
-  margin-top: 55px;
+  margin-top: 0 auto;
 }
 
 #productList {
@@ -213,6 +233,8 @@ section {
 
 #contactUsHeading {
     font-size: 53px;
+    text-shadow: 2.5px 2px #BFDBF7;
+    text-decoration: underline solid #1F7A8C;
 }
 
 .contactUsRow {
@@ -234,7 +256,6 @@ section {
 
 }
 
-.contactParagraphs {
-  
-
+h3 {
+    text-decoration: underline solid #1F7A8C; 
 }
