@@ -1,3 +1,4 @@
+/* Sets font that I downloaded */
 @font-face {
     font-family: timepotFont;
     src: url(ProximaNovaSoftW03-Regular.woff)
@@ -52,10 +53,10 @@ section {
     height: 700px;
 }
 
-/* img{
-    height: 100%;
-    width: 100%;
-} */
+
+
+
+
 
 /* First Section Styling */
 #aboutUs {
@@ -75,6 +76,9 @@ section {
 #paragraphInAboutUs {
     margin: 10px 180px;
 }
+
+
+
 
 /* Second Section Styling */
 #services {
@@ -119,15 +123,14 @@ section {
     text-align:center;
 }
 
+
+
+
 /* Third Section Styling */
 #products {
     background-color: #ffff;
     margin: 0 auto;
     padding: 0;
-   
-    /* font-size: 25px; */
-    /* display:flex; */
-
 }
 
 #productHeading {
@@ -142,7 +145,6 @@ section {
 #leftProductContainer {
     float:left;
     clear: left;
-    /* font-size: 25px; */
     width: 50%;
     height:550px;
     display:flex;
@@ -150,7 +152,6 @@ section {
     justify-content:space-around;
     align-content:flex-start;
     text-align:center;
-/*     text-align:center; */
 }
 
 #countryList {
@@ -199,6 +200,41 @@ section {
   border-radius: 25px;
 }
 
-section:nth-child(4) {
-    background-color: firebrick;
+
+/* Fourth Section Styling */
+#contactUs {
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+}
+
+#contactUsHeading {
+    font-size: 53px;
+}
+
+.contactUsRow {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.contactUsColumn {
+    font-size: 22px;
+    float: left;
+    width: 32.99%;
+    margin; 0 100px;
+    text-shadow: .5px 2px #BFDBF7;
+/*     border: 2px solid #1F7A8C; */
+/*     box-shadow: .5px 10px #BFDBF7; */
+    border-radius: 25px;
+
+}
+
+.contactParagraphs {
+  
+
 }
