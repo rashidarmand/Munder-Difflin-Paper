@@ -271,3 +271,122 @@ ul {
 h3 {
     text-decoration: underline solid #1F7A8C; 
 }
+
+
+
+/* KeyFrames */
+@keyframes fadeInFlipBounce{
+    0%{
+        opacity: 0;
+        transform: rotate(0deg)  translateY(0);
+    }
+    17%{
+        opacity: 0.4;
+        transform: rotate(180deg)  translateY(0);
+    }
+    34%{
+        opacity: 0.7;
+        transform: rotate(360deg)  translateY(0);
+    }
+    51%{
+        opacity: 1;
+        transform:  translateY(0);
+    }
+    68%{
+        transform: translateY(-100px);
+    }
+    85%{
+        transform:  translateY(0px);
+    }
+    90%{
+        transform:  translateY(-9px);
+    }
+    100%{
+        opacity: 1;
+        transform:  translateY(0px);
+    }
+}
+
+
+/* Animations with the KeyFrames */
+#north-america.show {
+    animation: fadeInFlipBounce;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+ #south-america.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#europe.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#asia.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .6s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#paper.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .8s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#boxes.show {
+    animation: fadeInFlipBounce;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#envelopes.show {
+    animation: fadeInFlipBounce;
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#labels.show {
+    animation: fadeInFlipBounce;
+    animation-delay: 1.4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#more.show {
+    animation: fadeInFlipBounce;
+    animation-delay: 1.6s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#custom.show {
+    animation: fadeInFlipBounce;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+ #award.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#easy.show {
+    animation: fadeInFlipBounce;
+    animation-delay: .4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
