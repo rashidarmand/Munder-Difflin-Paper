@@ -78,7 +78,6 @@ ul {
 
 .navBarItems:hover {
     cursor: pointer;
-    font-size: 25px;
     color: #FFFFFF;
     background-color: #022B3A;
     border: 1px solid #BFDBF7;
@@ -143,7 +142,7 @@ ul {
 
 #countryList {
   font-size: 20px;
-  text-shadow: .5px 2px #BFDBF7;
+  text-shadow: .2px .4px #BFDBF7;
   border: 0;
 }
 
@@ -261,7 +260,7 @@ ul {
 }
 
 .contactUsColumn {
-    font-size: 22px;
+    font-size: 28px;
     float: left;
     width: 32.99%;
     text-shadow: .5px 2px #BFDBF7;

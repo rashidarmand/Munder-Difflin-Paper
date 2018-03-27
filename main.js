@@ -1,16 +1,11 @@
 // When the user scrolls 20 px from the top, show the topButton
-window.onscroll = function() {
-    showTopButton()
-};
-
-function showTopButton() {
+window.addEventListener('scroll', (event) => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("topButton").style.display = "block";
     } else {
         document.getElementById("topButton").style.display = "none";
     }
-};
-
+})
 
 
 // Scroll To Top Feature
@@ -21,9 +16,6 @@ topOfPage.addEventListener('click', (scrollToTop) => {
     document.querySelector('#logo').scrollIntoView({ behavior: 'smooth' });
 });
 // I chose the logo because it is at the top of the page
-
-
-
 
 
 //Scroll to Section Feature
@@ -48,9 +40,6 @@ products.addEventListener('click', (scrollToSection) => {
 contactUs.addEventListener('click', (scrollToSection) => {
     document.querySelector('#contactUs').scrollIntoView({ behavior: 'smooth' });
 });
-
-
-
 
 
 // Add KeyFrame Animation On Scroll
